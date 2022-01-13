@@ -1,0 +1,3 @@
+13th Jan
+
+I edited the code we did today by changing the shape from an ellipse to a quad, the color, and the extermities where the shape is drawn.
