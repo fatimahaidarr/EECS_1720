@@ -1,3 +1,6 @@
 13th Jan
-
 I edited the code we did today by changing the shape from an ellipse to a quad, the color, and the extermities where the shape is drawn.
+
+14th Jan
+I added 'Im The Walker' text as I was looking through the refrences and experimenting with them.
+I also changed the position of the Walker (quad) in the canvas.
