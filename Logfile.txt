@@ -4,3 +4,6 @@ I edited the code we did today by changing the shape from an ellipse to a quad, 
 14th Jan
 I added 'Im The Walker' text as I was looking through the refrences and experimenting with them.
 I also changed the position of the Walker (quad) in the canvas.
+
+15th Jan
+I added another condition for the code that was provided which is to change the color of the background at a certain place in the canvas.
