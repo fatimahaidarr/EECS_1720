@@ -7,3 +7,6 @@ I also changed the position of the Walker (quad) in the canvas.
 
 15th Jan
 I added another condition for the code that was provided which is to change the color of the background at a certain place in the canvas.
+
+16th Jan
+Today I looked at some pyhton refrences and watched an introductory tutorial on pyhton as well.
