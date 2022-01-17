@@ -10,3 +10,6 @@ I added another condition for the code that was provided which is to change the 
 
 16th Jan
 Today I looked at some pyhton refrences and watched an introductory tutorial on pyhton as well.
+
+17th Jan
+I added a rotationg cone that the quad intersects with as it is rotating with it, and the colors of both elements.
