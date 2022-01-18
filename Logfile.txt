@@ -13,3 +13,6 @@ Today I looked at some pyhton refrences and watched an introductory tutorial on 
 
 17th Jan
 I added a rotationg cone that the quad intersects and rotate with , and changed the colors of both elements.
+
+18th Jan
+While searching the Python reference list, I experimented with the interactivity section and tried a code from there by Casey Reas and Ben Fry, which is an introduction to Interactivity with the Mouse and Keyboard, and added it to the first python sketch by modifying it a bit.
