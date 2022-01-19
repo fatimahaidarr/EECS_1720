@@ -16,3 +16,6 @@ I added a rotationg cone that the quad intersects and rotate with , and changed 
 
 18th Jan
 While searching the Python reference list, I experimented with the interactivity section and tried a code from there by Casey Reas and Ben Fry, which is an introduction to Interactivity with the Mouse and Keyboard, and added it to the first python sketch by modifying it a bit.
+
+19th Jan
+Today I added the web extensions that were posted by the professor, and tried then on both chrome and firefox. They were approved by the TA.
