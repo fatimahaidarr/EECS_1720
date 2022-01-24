@@ -20,5 +20,8 @@ While searching the Python reference list, I experimented with the interactivity
 19th Jan
 Today I added the web extensions that were posted by the professor, and tried then on both chrome and firefox. They were approved by the TA.
 
-20th Jan
+20-24th Jan
 Looked into brwoser extension ideas online to start with project 1.
+Also watching more tutorials on chrom extensions.
+
+
