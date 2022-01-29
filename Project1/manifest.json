@@ -1,6 +1,6 @@
 {
     "name": "project2",
-    "version":"1.0",
+    "version":"0.1",
     "manifest_version": 2,
     "content_scripts":[
     
@@ -12,12 +12,17 @@
          "js": ["content.js"]
      }
     ],
-    "background": {
-        "scripts":
-        ["background.js"]
-    },
+    
     "browser_action":{
-        "default_icon": "spider.png"
-    }
+        "default_icon": "spider.png",
+        "default_popup":"popup.html",
+        "defualt_title":"A popup will come here."
+    },
+    "permissions": [
+        "storage",
+        "default_popup"
+      ]
     
 }
+
+    
