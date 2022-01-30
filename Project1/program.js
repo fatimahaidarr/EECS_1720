@@ -12,13 +12,12 @@ function isSearch(){
 const url = window.location.href;
 
 //Only run on Google domain.
-if(url.includes(".google.") && isSearch()){
+if(url.includes(".nytimes.")){
     //Initialization///////////////////////////////////////////////////////////
 
     let configuration = {
         "replacePicture": false,
         "removeParagraphTitles": false,
-
         "paragraphColorBg": false,
        
         
@@ -66,6 +65,7 @@ function modifySearchResults(configuration){
         //Remove 3 dots if present instaed of arrow.
         removeElements(".D6lY4c", 0);
         removeElements(".rIbAWc", 0);
+
     }
 
     //Color Url////////////////////////////////////////////////////////////////
@@ -75,19 +75,13 @@ function modifySearchResults(configuration){
     //Move Url////////////////////////////////////////////////////////////////
     if(configuration.removeParagraphTitles){
        //Remove url and icon.
-        removeElements(".TbwUpd", 0);
-        //Remove url and icon on the litle pages thingy that appears.
-        removeElements(".qdrjAc", 0);
-
-        //Decrease distance between results.
-        decreaseResultDistance("TbwUpd"); //Normal results.  
+        removeElements(".css-nic7nv", 0);
+       
     }
 
     //Remove Widgets///////////////////////////////////////////
     if(configuration.words)
         removeElements(".otisdd", 2)
-
-r
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -149,7 +143,7 @@ function removeElements(name, parentNum){
 function getParentNode(element, parentNum){
     let parent = element;
 
-    for(let i = 0; parentNum > i; i++)
+    for(let i = 0; i < parentNum; i++)
         parent = parent.parentNode
 
     return parent;

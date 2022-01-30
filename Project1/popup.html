@@ -14,21 +14,20 @@
             <h5 id="adTitle">Page Appearance</h5>
             <div class="controlsWrapper">
 
-                <input type="checkbox" id="replacePicturesCheckbox" class="checkbox" name="replacePictures" value="pictures"> Replace Pictures<br>
-                <input type="checkbox" id="removePragraphTitlesCheckbox" class="checkbox" name="removePragraphTitles" value="url"> Remove Paragraph Titles<br>
+                <input type="checkbox" id="replacePicturesCheckbox" class="checkbox" name="replacePictures" value="pictures"> Replace PicturesL<br>
+                <input type="checkbox" id="removeParagraphTitlesCheckbox" class="checkbox" name="removeParagraphTitles" value="url"> Remove Paragraph Titles<br>
                                 
-                <input type="checkbox" id="wordsCheckBox" class="checkbox" name="words" value="color"> Remove words<br>
-                Background Paragraph Color: <input type="colorParagraphBg" id="colorParagraphBg" class="colorSelection"> 
-
-               
-                   <p> <span class="fieldName"> Program: </span>
-                        <select name="color">   
+                <p> <span class="paragraphColor"> Background Paragraph Color: </span>
+                    <select name="colorSelect">   
+                      <!-- complete the dropdown list.  The 'value' attribute is needed by the server. search w3school for details.
+                        Make EECS the default selected one -->
                         <option value="Purple" selected>Purple</option>
                         <option value="Blue">Blue</option>
                         <option value="Gray" >Gray</option>
                         <option value="Orchid">Orchid</option>
-                        </select>
-                        </p>
+
+                    </select>
+                </p>
             </div>
 
             
