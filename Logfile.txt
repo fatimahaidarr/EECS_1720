@@ -24,4 +24,6 @@ Today I added the web extensions that were posted by the professor, and tried th
 Looked into brwoser extension ideas online to start with project 1.
 Also watching more tutorials on chrom extensions.
 
+Wrapping my extension browser
+
 
