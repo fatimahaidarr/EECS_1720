@@ -26,4 +26,6 @@ Also watching more tutorials on chrom extensions.
 
 Wrapping my extension browser
 
+Starting with PYTHON for our second project!
+
 
